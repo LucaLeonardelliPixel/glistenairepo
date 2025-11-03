@@ -59,7 +59,7 @@ export default function AnimatedContent({slice}: {slice: Content.HeroSlice}) {
 
         {isFilled.image(slice.primary.image) && (
           <div className="hero__image glass-container mt-16 w-fit opacity-0">
-            <div className="hero__glow absolute inset-0 -z-10 bg-blue-500/30 blur-2xl filter opacity-0"/>
+            <div className="hero__glow absolute inset-0 -z-10 bg-blue-500/40 blur-2xl filter opacity-0"/>
             <PrismicNextImage className="rounded-lg" field={slice.primary.image} />
           </div>
         )}
